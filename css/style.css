@@ -1,0 +1,309 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap&subset=cyrillic-ext");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	/* color: #000; */
+	/* font-family:""; */
+	font-family: "Roboto", sans-serif;
+}
+.wrapper {
+	
+	max-width: 100%;
+	box-sizing: border-box;
+   overflow: hidden;
+    font-size: 0px;
+}
+/* ------------------------------ */
+.carts__pets {
+	background: #F5F5F5;
+}
+.blok__sed {
+	margin: 30px 0px 0px 0px;
+}
+.body__sed {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.title__our {
+	vertical-align: top;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	align-items: center;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5D62B5;
+	margin: 0px 0px 33px 0px;
+}
+.title__our::before{
+	content: url('../img/blok__sed/icon/overlinemark.svg');
+	vertical-align: top;
+	height: 16px;
+	width: 17px;
+	margin: 0px 15px 0px 0px;
+}
+.title__sed {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	margin: 0px 0px 78px 0px;
+}
+.row__1 {
+	font-size: 0;
+	margin: 0px 0px 24px 0px;
+	}
+.pet__boarding, 
+.pet__daycare,
+.pet__day {
+	display: inline-block;
+	max-width: 324px;
+	vertical-align: top;
+	padding: 50px 43px 0px 44px;
+	margin: 0px 24px 0px 0px;
+}
+.pet__boarding:hover, 
+.pet__daycare:hover,
+.pet__day:hover {
+	background: #FFFFFF;
+	border-radius: 20px;
+	box-shadow: 0px 8px 16px 0px rgba(38, 38, 38, 0.24), 0px 16px 24px 0px rgba(38, 38, 38, 0.2);
+}
+.pet__day:last-child {
+	margin: 0px;
+}
+.sed__icon {
+	margin: 0 auto;
+	width: 63px;
+	vertical-align: top;
+}
+.petboarding,
+.petdaycare,
+.petday{
+	margin: 0px 24px 24px 0px;
+}
+.title__sed1 {
+	text-align: center;
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #F2726F;
+	margin: 0px 0px 20px 0px;
+}
+.text__sed {
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+	margin: 0px 0px 30px 0px;
+}
+.row__2 {
+	font-size: 0;
+	margin: 0px 0px 66px 0px;
+}
+.link__sed {
+	text-align: center;
+}
+.linksed {
+	min-width: 124px;
+	min-height: 48px;
+	display: inline-block ;
+	margin: 0 auto;
+	background-color:  #F2726F;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	border-radius: 5px;
+	padding: 12px 25px;  
+	margin: 0px 0px 200px 0px;
+}
+
+
+
+.block__nemo {
+	max-width: 1440px; 
+	background:#29C3BE url('../img/block__nemo/decor/Blob\ 2.png') 93% 0 no-repeat;
+		font-size: 0px; 
+	padding: 105px 0px 0px 193px;
+}
+h2{
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	align-items: center;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin: 0px 0px 32px 0px;
+}
+h2::before{
+	vertical-align: top;
+	content: url("../img/block__nemo/icon/nemo.svg");
+	max-width: 15px;
+	max-height: 15px;
+	}
+h3{
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+	margin: 0px 0px 76px 0px; 
+	max-width: 411px;
+	}
+	.nemoimg {
+		border-radius: 40px;
+		max-width: 498px;
+		max-height: 315px;
+		margin: -409px 0px 0px 470px;
+	}
+	.nemo__cards {
+		font-size: 0;
+		margin: 0px 0px 50px 0px;
+	}
+	.nemocards__item {
+		display: inline-block;
+		width: 237px;
+		vertical-align: top;
+		}
+	.nemocarts__icon {
+		display: inline-block;
+		max-height: 76px;
+		max-width: 76px;
+		vertical-align: top;
+		margin: 0px 10px 0px 0px; 
+	}
+	.nemocards__content {
+		display: inline-block;
+		max-width: 237px;
+		vertical-align: top;
+	}
+	.nemocards__title {
+		font-weight: 900;
+		font-size: 36px;
+		line-height: 42px;
+		color: #FFFFFF;
+	}
+	.nemocards__subtitle {
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.15px;
+		color: #5D62B5;
+		padding: 0px 0px 218px 0px;
+	}
+	
+
+
+	.block__perspiciatis {
+		font-size: 0px;
+		margin: 0px 0px 50px 0px;
+		max-width: 1440px;
+			}
+	.blockperspiciatis__contener {
+		margin: 80px 0px 0px 200px;
+			}
+	h4{
+		font-weight: bold;
+		font-size: 12px;
+		line-height: 24px;
+		letter-spacing: 2.5px;
+		text-transform: uppercase;
+		color: #5D62B5;
+		margin: 0px 0px 33px 0px;
+			}
+	h4:before {
+		content: url("../img/block__perspiciatis/icon/Mark.svg");
+		display: inline-block;
+		height: 16px;
+		width: 17px;
+		vertical-align: top;
+		margin: 0px 16px 0px 0px;
+	}
+	h5{
+		font-weight: 900;
+		font-size: 36px;
+		line-height: 42px;
+		margin: 0px 0px 68px 0px; 
+	}
+
+	.perspiciatis__item {
+		display: inline-block;
+		width: 354px;
+		vertical-align: top;
+		padding: 0px 24px 0px 0px; 
+	}
+	.perspiciatis__item:last-child {
+		padding: 0px;
+	}   
+	.perspiciatis__icon {
+		display: inline-block;
+		vertical-align: top;
+		width:85px;
+		height: 63px;
+	}
+	.perspiciatis__content {
+		width: 235px; 
+		display: inline-block;
+		vertical-align: top;
+	} 
+	.perspiciatis__title1 {
+		font-weight: 900;
+		font-size: 19px;
+		line-height: 26px;
+		color: #F2726F;
+		margin: 0px 0px 10px 0px;
+	}
+	.perspiciatis__text {
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.15px;
+		color: #4B4B4B;
+		padding: 0px 0px 10px 0px;
+	} 
+
+
